@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./Screenshot_10-7-2025_131137_127.0.0.1.jpeg" alt="To-Do List App Screenshot" width="700" />
+  <img src="./screenshot.jpeg" alt="To-Do List App Screenshot" width="700" />
 </p>
 
 <h1 align="center">📝 To-Do List App</h1>
