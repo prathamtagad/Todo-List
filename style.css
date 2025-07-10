@@ -1,0 +1,137 @@
+body{
+    background-color: #0A0908;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+h1{
+    margin-top: 10px;
+    text-align: center;
+    background-color: #5E503F;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+
+.todo-container{
+    display: flex;
+    background-color: #5E503F;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 10px;
+    height: 90vh;
+    overflow-x: scroll;
+}
+
+.input-container{
+    display: flex;
+    background-color: #A9927D;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+input{
+    width: 100%;
+    margin-right: 10px;
+    font-size: 1rem;
+    padding-left: 10px;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    background-color: #5F2E37;
+}
+
+.add-task-btn{
+    padding: 5px;
+    border-radius: 10px;
+    background-color: #5F2E37;
+    border: 1px white;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.4s ease;
+    color: white;
+}
+
+button:active{
+    transform: scale(0.9);
+    background-color: rgb(227, 143, 210);
+    color: black;
+}
+
+ul{
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+li{
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    background-color: #A9927D;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    align-items: center;
+    font: bold;
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+li:hover{
+    animation: pop 0.4s ease forwards;
+}
+
+@keyframes pop {
+    0%{
+        transform: scale(1);
+    }
+
+    50%{
+        transform: scale(1.05);
+    }
+
+    100%{
+        transform: scale(1.03);
+    }
+}
+
+.todo-edit-buttons{
+    padding: 2px;
+    margin-right: 10px;
+}
+
+button{
+    border-radius: 10px;
+    padding: 7px;
+    transition: 0.4s ease;
+    background-color: #5F2E37;
+    color: white;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: rgb(160, 79, 79);
+    color: white;
+    cursor: pointer;
+}
+
+.myinfo{
+    margin-top: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    background-color: #5E503F;
+}
+
+*{
+    box-sizing: border-box;
+}
